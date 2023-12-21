@@ -1,0 +1,23 @@
+.country-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-left: 40px;
+}
+  
+.country-card {
+    width: 200px; 
+    height: 250px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+}
+  
+.country-card img {
+    width: 100%; 
+    height: 150px; 
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+  
